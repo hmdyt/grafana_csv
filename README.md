@@ -1,0 +1,6 @@
+- grafanaでcsvをパッと読む
+- `./csv`内にcsv入れる
+- `docker-compose up -d`
+- `localhost:3000` 繋ぐ
+- data source -> csv -> /csv以下にマウントされた任意のcsvを設定
+- dashboard作る
